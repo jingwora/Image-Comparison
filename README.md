@@ -1,8 +1,14 @@
-# Image-Change-Detection
+# Image Comparison
+
+
+## 1. Image Similarity
+
+
+## 2. Image-Change-Detection
 
 - [Object-Detection](https://jingwora.github.io/contents/articles/Object-Detection.html)
 
-## Reference:
+### Reference:
 - Spot the difference: Detection of Topological Changes via Geometric Alignment
 - https://github.com/SteffenCzolbe/TopologicalChangeDetection
 
