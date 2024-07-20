@@ -5,3 +5,6 @@
 ## Reference:
 - Spot the difference: Detection of Topological Changes via Geometric Alignment
 - https://github.com/SteffenCzolbe/TopologicalChangeDetection
+
+- visualize-differences-between-two-images-with-opencv-python
+- https://stackoverflow.com/questions/56183201/detect-and-visualize-differences-between-two-images-with-opencv-python
