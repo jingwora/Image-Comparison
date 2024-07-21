@@ -53,6 +53,24 @@
 - https://github.com/Z-Zheng/ChangeStar
 - https://github.com/aigzhusmart/AdaptFormer
 
+- absolute_differences
+<img src="https://github.com/jingwora/Image-Comparison/blob/main/assets/absolute_differences.png?raw=true" width="2000"/>
+
+- binary_thresholding_differences
+<img src="https://github.com/jingwora/Image-Comparison/blob/main/assets/binary_thresholding_differences.png?raw=true" width="2000"/>
+
+- contour_differences
+<img src="https://github.com/jingwora/Image-Comparison/blob/main/assets/contour_differences.png?raw=true" width="2000"/>
+
+- histogram_differences
+<img src="https://github.com/jingwora/Image-Comparison/blob/main/assets/histogram_differences.png?raw=true" width="2000"/>
+
+- sift_differences
+<img src="https://github.com/jingwora/Image-Comparison/blob/main/assets/sift_differences.png?raw=true" width="2000"/>
+
+- ssim_differences
+<img src="https://github.com/jingwora/Image-Comparison/blob/main/assets/ssim_differences.png?raw=true" width="2000"/>
+
 ### Reference:
 
 - [Object-Detection](https://jingwora.github.io/contents/articles/Object-Detection.html)
