@@ -2,6 +2,20 @@
 
 
 ## 1. Image Similarity
+- MSE
+- SSIM
+- SIFT
+- ORB
+- Perceptual Hash
+- Color Histograms
+- HOG
+- MobileNetV2
+- Siamese Networks
+- ViT
+- CLIP
+- GPT-4 Vision
+
+
 | Segment        | Methods        | Description                                             | Pros                                                                 | Cons                                                                | Use Case                                          | Tools                    |
 |----------------|-------------------|---------------------------------------------------------|---------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------|--------------------------|
 | Pixel-based    | MSE               | Mean Squared Error measures the average squared difference between pixels of two images | Simple and fast                                                     | Sensitive to minor changes and noise                               | Image comparison in controlled environments      | OpenCV                   |
@@ -35,6 +49,18 @@
 
 
 ## 2. Image-Change-Detection
+
+- Pixel Difference
+- Structural Similarity Index (SSIM)
+- Binary Thresholding
+- Contour Detection and Bounding Boxes
+- Histogram Comparison
+- Keypoint Detection (e.g., SIFT, ORB)
+- Convolutional Neural Networks (CNNs)
+- Vision Transformers (ViT)
+- YOLOv9
+- U-Net
+
 
 | Segment       | Method                                  | Description                                                                 | Pros                                                   | Cons                                                     | Use Case                                                      | Tools                    |
 |---------------|----------------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------|--------------------------|
