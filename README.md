@@ -36,9 +36,27 @@
 
 ## 2. Image-Change-Detection
 
-- [Object-Detection](https://jingwora.github.io/contents/articles/Object-Detection.html)
+| Segment       | Method                                  | Description                                                                 | Pros                                                   | Cons                                                     | Use Case                                                      | Tools                    |
+|---------------|----------------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------|--------------------------|
+| Basic         | Pixel Difference                       | Compares pixel values directly to find differences.                         | Simple to implement.                                    | Sensitive to minor changes like noise or compression artifacts. | Quick comparison for similar images.                           | OpenCV                   |
+| Structural    | Structural Similarity Index (SSIM)     | Measures structural similarity between images to find differences.          | More robust to minor changes, considers structural information. | Computationally intensive, can be slow on large images.         | Quality assessment, detecting subtle changes.                  | scikit-image, OpenCV     |
+| Thresholding  | Binary Thresholding                    | Converts difference image to binary image to highlight significant changes. | Effective for highlighting large differences.           | Loses fine-grained details.                                  | Highlighting major differences, preprocessing for contour detection. | OpenCV                   |
+| Contour       | Contour Detection and Bounding Boxes   | Finds contours in thresholded image and draws bounding boxes around them.   | Provides clear visual indication of differences.        | May miss small or subtle differences.                        | Highlighting differences for visual inspection.                | OpenCV                   |
+| Histogram     | Histogram Comparison                   | Compares image histograms to measure overall similarity.                    | Fast, not affected by small spatial shifts.             | Doesn't provide spatial information about differences.        | Quick similarity check, global changes detection.               | OpenCV                   |
+| Feature-based | Keypoint Detection (e.g., SIFT, ORB)   | Detects and matches keypoints between images to find differences.           | Robust to scaling, rotation, and partial occlusion.     | Computationally expensive, requires feature-rich images.       | Object recognition, tracking, comparing complex scenes.        | OpenCV                   |
+| Deep Learning | Convolutional Neural Networks (CNNs)   | Uses CNNs to learn and detect differences between images.                   | Highly accurate, can handle complex differences.        | Requires large datasets and computational resources.          | Advanced applications like medical imaging, anomaly detection. | TensorFlow, PyTorch      |
+| Transformer   | Vision Transformers (ViT)              | Uses self-attention mechanisms to process images and detect differences.    | Captures long-range dependencies, robust to various image conditions. | Computationally intensive, complex to implement.               | Advanced image recognition tasks, large-scale datasets.        | PyTorch, TensorFlow      |
+| Real-time     | YOLOv9                                 | Uses a single convolutional neural network for real-time object detection.  | High speed and accuracy, suitable for various object sizes. | Requires large labeled datasets, sensitive to objective functions. | Real-time detection in autonomous vehicles, surveillance.       | Darknet, OpenCV          |
+| Segmentation  | U-Net                                  | Uses an encoder-decoder architecture for precise segmentation and difference detection. | Highly accurate for pixel-level tasks, robust for various medical and satellite imagery. | Computationally expensive, requires large datasets and training time. | Medical image analysis, satellite image processing, fine-grained segmentation. | TensorFlow, PyTorch      |
+
+- https://github.com/likyoo/open-cd
+- https://github.com/Z-Zheng/ChangeStar
+- https://github.com/aigzhusmart/AdaptFormer
 
 ### Reference:
+
+- [Object-Detection](https://jingwora.github.io/contents/articles/Object-Detection.html)
+
 - Spot the difference: Detection of Topological Changes via Geometric Alignment
 - https://github.com/SteffenCzolbe/TopologicalChangeDetection
 
