@@ -2,7 +2,7 @@
 
 
 ## 1. Image Similarity
-| Segment        | Techniques        | Description                                             | Pros                                                                 | Cons                                                                | Use Case                                          | Tools                    |
+| Segment        | Methods        | Description                                             | Pros                                                                 | Cons                                                                | Use Case                                          | Tools                    |
 |----------------|-------------------|---------------------------------------------------------|---------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------|--------------------------|
 | Pixel-based    | MSE               | Mean Squared Error measures the average squared difference between pixels of two images | Simple and fast                                                     | Sensitive to minor changes and noise                               | Image comparison in controlled environments      | OpenCV                   |
 | Pixel-based    | SSIM              | Structural Similarity Index measures the perceived quality of digital images | Considers structural information                                    | Computationally intensive for large images                         | Quality assessment in image compression          | scikit-image             |
