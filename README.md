@@ -79,7 +79,10 @@
 - https://github.com/likyoo/open-cd
 - https://github.com/Z-Zheng/ChangeStar
 - https://github.com/aigzhusmart/AdaptFormer
-
+- https://www.kaggle.com/code/aninda/change-detection-nb
+- https://paperswithcode.com/paper/tinycd-a-not-so-deep-learning-model-for
+- https://paperswithcode.com/task/change-detection
+  
 ### Experiments
 
 - absolute_differences
@@ -100,6 +103,12 @@
 - ssim_differences
 <img src="https://github.com/jingwora/Image-Comparison/blob/main/assets/ssim_differences.png?raw=true" width="2000"/>
 
+### Datasets:
+
+- https://www.kaggle.com/datasets/amerii/spacenet-7-change-detection-chips-and-masks
+- https://www.kaggle.com/datasets/kmader/aerial-change-detection-in-video-games
+- https://www.kaggle.com/datasets/dingmama/remote-sensing-image-change-detection-dataset
+- 
 ### Reference:
 
 - [Object-Detection](https://jingwora.github.io/contents/articles/Object-Detection.html)
