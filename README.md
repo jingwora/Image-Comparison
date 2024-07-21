@@ -33,6 +33,7 @@
 
 ### Run experiments
 
+<img src="https://github.com/jingwora/Image-Comparison/blob/main/data/car_diagram/11.brake_base.jpg?raw=true" width="250"/> <img src="https://github.com/jingwora/Image-Comparison/blob/main/data/car_diagram/12.brake_senser1.jpg?raw=true" width="250"/><img src="https://github.com/jingwora/Image-Comparison/blob/main/data/car_diagram/13.brake_senser2.jpg?raw=true" width="250"/><img src="https://github.com/jingwora/Image-Comparison/blob/main/data/car_diagram/14.brake_senser3.jpg?raw=true" width="250"/><img src="https://github.com/jingwora/Image-Comparison/blob/main/data/car_diagram/21.wheel_base.jpg?raw=true" width="250"/>
 
 | image1              | image2               | Pixel-based | Pixel-based | Feature-based | Feature-based | Hash-based        | Histogram-Based | Histogram-Based | DL           | DL              | DL     | LLM  | LLM          | LLM           |
 |---------------------|----------------------|-------------|-------------|---------------|---------------|-------------------|-----------------|-----------------|--------------|-----------------|--------|------|--------------|---------------|
