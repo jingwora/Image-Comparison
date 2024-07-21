@@ -31,7 +31,7 @@
 | LLM            | CLIP              | Connects images and text by learning visual and textual representations | Connects images and text effectively                                | May produce inaccurate results for nuanced queries                 | Multimodal tasks, image and text retrieval       | OpenAI, Hugging Face     |
 | LLM            | GPT-4 Vision      | An advanced AI model that understands and generates images and text | Advanced vision-language understanding                              | High computational cost, limited availability                      | Complex vision-language tasks, AI research       | OpenAI                   |
 
-### Run experiments
+### Experiments
 
 <img src="https://github.com/jingwora/Image-Comparison/blob/main/data/car_diagram/11.brake_base.jpg?raw=true" width="250"/> <img src="https://github.com/jingwora/Image-Comparison/blob/main/data/car_diagram/12.brake_senser1.jpg?raw=true" width="250"/><img src="https://github.com/jingwora/Image-Comparison/blob/main/data/car_diagram/13.brake_senser2.jpg?raw=true" width="250"/><img src="https://github.com/jingwora/Image-Comparison/blob/main/data/car_diagram/14.brake_senser3.jpg?raw=true" width="250"/><img src="https://github.com/jingwora/Image-Comparison/blob/main/data/car_diagram/21.wheel_base.jpg?raw=true" width="250"/>
 
@@ -79,6 +79,8 @@
 - https://github.com/likyoo/open-cd
 - https://github.com/Z-Zheng/ChangeStar
 - https://github.com/aigzhusmart/AdaptFormer
+
+### Experiments
 
 - absolute_differences
 <img src="https://github.com/jingwora/Image-Comparison/blob/main/assets/absolute_differences.png?raw=true" width="2000"/>
