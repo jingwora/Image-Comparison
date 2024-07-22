@@ -16,7 +16,7 @@
 - GPT-4 Vision
 
 
-| Segment        | Methods        | Description                                             | Pros                                                                 | Cons                                                                | Use Case                                          | Tools                    |
+| Categories        | Methods        | Description                                             | Pros                                                                 | Cons                                                                | Use Case                                          | Tools                    |
 |----------------|-------------------|---------------------------------------------------------|---------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------|--------------------------|
 | Pixel-based    | MSE               | Mean Squared Error measures the average squared difference between pixels of two images | Simple and fast                                                     | Sensitive to minor changes and noise                               | Image comparison in controlled environments      | OpenCV                   |
 | Pixel-based    | SSIM              | Structural Similarity Index measures the perceived quality of digital images | Considers structural information                                    | Computationally intensive for large images                         | Quality assessment in image compression          | scikit-image             |
@@ -63,7 +63,7 @@
 - U-Net
 
 
-| Segment       | Method                                  | Description                                                                 | Pros                                                   | Cons                                                     | Use Case                                                      | Tools                    |
+| Categories       | Methods                                  | Description                                                                 | Pros                                                   | Cons                                                     | Use Case                                                      | Tools                    |
 |---------------|----------------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------|--------------------------|
 | Basic         | Pixel Difference                       | Compares pixel values directly to find differences.                         | Simple to implement.                                    | Sensitive to minor changes like noise or compression artifacts. | Quick comparison for similar images.                           | OpenCV                   |
 | Structural    | Structural Similarity Index (SSIM)     | Measures structural similarity between images to find differences.          | More robust to minor changes, considers structural information. | Computationally intensive, can be slow on large images.         | Quality assessment, detecting subtle changes.                  | scikit-image, OpenCV     |
